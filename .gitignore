@@ -1,3 +1,9 @@
+# SLEE
+enablers/xdm-client/docs/sources-mobicents/src/
+enablers/xdm-client/docs/sources-telscale/src/
+resources/xcap-client/docs/sources-mobicents/src/
+resources/xcap-client/docs/sources-telscale/src/
+
 # Java compiled #
 #################
 *.class
