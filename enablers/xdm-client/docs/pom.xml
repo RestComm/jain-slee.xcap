@@ -14,7 +14,9 @@
 	<packaging>pom</packaging>
 	
 	<modules>
-		<module>sources</module>		
+		<module>sources</module>
+		<module>sources-telscale</module>
+		<module>jdocbook-telscale</module>			
 	</modules>
 
 	<properties>
@@ -23,22 +25,5 @@
 		<docs.enabler.dirname>xdm-client</docs.enabler.dirname>
 		<docs.bookid>XDMClient</docs.bookid>
 	</properties>
-	
-	<profiles>
-		<profile>
-			<id>telscale</id>
-			<modules>
-				<module>sources-telscale</module>
-				<module>jdocbook-telscale</module>
-			</modules>
-		</profile>
-		<profile>
-			<id>maven-release</id>
-			<modules>
-				<module>sources-telscale</module>
-				<module>jdocbook-telscale</module>
-			</modules>
-		</profile>
-	</profiles>
 
 </project>

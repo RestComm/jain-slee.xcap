@@ -16,23 +16,8 @@
 	
 	<modules>
 		<module>sources</module>		
+		<module>sources-telscale</module>
+		<module>jdocbook-telscale</module>
 	</modules>
-
-	<profiles>
-		<profile>
-			<id>telscale</id>
-			<modules>
-				<module>sources-telscale</module>
-				<module>jdocbook-telscale</module>
-			</modules>
-		</profile>
-		<profile>
-			<id>maven-release</id>
-			<modules>
-				<module>sources-telscale</module>
-				<module>jdocbook-telscale</module>
-			</modules>
-		</profile>
-	</profiles>
 
 </project>
