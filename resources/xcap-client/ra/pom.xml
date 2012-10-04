@@ -18,7 +18,6 @@
 		</dependency>		
                <dependency>
 					<groupId>org.mobicents.servers.jainslee.core</groupId>
-					<version>${project.version}</version>
 					<artifactId>spi</artifactId>
 			   </dependency>
 	    </dependencies>

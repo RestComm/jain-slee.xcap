@@ -31,6 +31,11 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
+				<groupId>org.mobicents.servers.jainslee.core</groupId>
+				<version>6.1.1.GA-TelScale</version>
+				<artifactId>spi</artifactId>
+		   </dependency>
+			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>httpclient</artifactId>
 				<version>4.1</version>
