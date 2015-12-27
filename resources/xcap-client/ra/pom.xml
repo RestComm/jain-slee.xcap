@@ -16,11 +16,11 @@
 			<artifactId>mobicents-slee-ra-xcap-client-ratype</artifactId>
 			<version>${pom.version}</version>
 		</dependency>		
-               <dependency>
-					<groupId>org.mobicents.servers.jainslee.core</groupId>
-					<version>2.8.1</version>
-					<artifactId>spi</artifactId>
-			   </dependency>
+               	<dependency>
+			<groupId>org.mobicents.servers.jainslee.core</groupId>
+			<version>2.8.1</version>
+			<artifactId>spi</artifactId>
+	   	</dependency>
 	    </dependencies>
 	
 	<build>
