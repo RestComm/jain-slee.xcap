@@ -2,32 +2,32 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<artifactId>mobicents-slee-ra-xcap-client</artifactId>
+		<artifactId>restcomm-slee-ra-xcap-client</artifactId>
 		<groupId>org.mobicents.resources</groupId>
 		<version>2.8.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>mobicents-slee-ra-xcap-client-DU</artifactId>
+	<artifactId>restcomm-slee-ra-xcap-client-DU</artifactId>
 	
 	<dependencies>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xcap-client-events</artifactId>
+			<artifactId>restcomm-slee-ra-xcap-client-events</artifactId>
 			<version>${pom.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xcap-client-ratype</artifactId>
+			<artifactId>restcomm-slee-ra-xcap-client-ratype</artifactId>
 			<version>${pom.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xcap-client-ra</artifactId>
+			<artifactId>restcomm-slee-ra-xcap-client-ra</artifactId>
 			<version>${pom.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xcap-client-library</artifactId>
+			<artifactId>restcomm-slee-ra-xcap-client-library</artifactId>
 			<version>${pom.version}</version>
 		</dependency>	
 	</dependencies>

@@ -359,12 +359,12 @@ public abstract class XDMClientParentSbb implements Sbb, XDMClientParent {
 	private URI createURI() {
 		try {
 			// return new
-			// URI("http://"+xmdAddress+":"+xdmPort+"/mobicents/rls-services/users/sip:"+user+"@"+xmdAddress+";pres-list=Default/index");
+			// URI("http://"+xmdAddress+":"+xdmPort+"/restcomm/rls-services/users/sip:"+user+"@"+xmdAddress+";pres-list=Default/index");
 			String documentSelector = getDocumentSelector();
 			// FIXME use configuration to set scheme and authority and xcap root
 			UriBuilder uriBuilder = new UriBuilder()
 					.setSchemeAndAuthority("http://127.0.0.1:8080")
-					.setXcapRoot("/mobicents/")
+					.setXcapRoot("/restcomm/")
 					.setDocumentSelector(documentSelector);
 			URI documentURI = uriBuilder.toURI();
 			

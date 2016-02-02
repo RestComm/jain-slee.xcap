@@ -2,17 +2,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<artifactId>mobicents-slee-ra-xcap-client</artifactId>
+		<artifactId>restcomm-slee-ra-xcap-client</artifactId>
 		<groupId>org.mobicents.resources</groupId>
 		<version>2.8.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>mobicents-slee-ra-xcap-client-events</artifactId>	
+	<artifactId>restcomm-slee-ra-xcap-client-events</artifactId>	
 
 	<dependencies>
 		<dependency>
 			<groupId>${pom.groupId}</groupId>
-			<artifactId>mobicents-slee-ra-xcap-client-library</artifactId>
+			<artifactId>restcomm-slee-ra-xcap-client-library</artifactId>
 			<version>${pom.version}</version>
 		</dependency>
 	</dependencies>
