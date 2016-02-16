@@ -29,7 +29,7 @@
 			.toPercentEncodedString();
 		UriBuilder uriBuilder = new UriBuilder()
 			.setSchemeAndAuthority("http://127.0.0.1:8080")
-			.setXcapRoot("/mobicents")
+			.setXcapRoot("/restcomm")
 			.setDocumentSelector(documentSelector);
 		URI documentURI = uriBuilder.toURI();
 		
@@ -126,7 +126,7 @@
 			.toPercentEncodedString();
 		UriBuilder uriBuilder = new UriBuilder()
 		.setSchemeAndAuthority("http://127.0.0.1:8080")
-		.setXcapRoot("/mobicents")
+		.setXcapRoot("/restcomm")
 		.setDocumentSelector(documentSelector)
 		.setElementSelector(elementSelector);
 		URI uri = uriBuilder.toURI();
