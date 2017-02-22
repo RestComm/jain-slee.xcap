@@ -1,5 +1,8 @@
 <?xml version='1.0'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [<!ENTITY % BOOK_ENTITIES SYSTEM "JAIN_SLEE_Enabler_XDM_Client_User_Guide.ent">%BOOK_ENTITIES;]>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "JAIN_SLEE_Enabler_XDM_Client_User_Guide.ent">
+%BOOK_ENTITIES;
+]>
 
 <chapter id="using_the_enabler">
 
@@ -11,16 +14,16 @@
 		
 		<title>The Child's SbbLocalObject Interface</title>
 		
-		<para>The &THIS.PLATFORM; JAIN SLEE &THIS.ENABLER; Enabler Sbb, the Child Sbb, implements the <literal>org.mobicents.slee.enabler.xdmc.XDMClientChildSbbLocalObject</literal>, which extends the <literal>org.mobicents.slee.SbbLocalObjectExt</literal> and <literal>org.mobicents.slee.enabler.xdmc.XDMClientChild</literal> interfaces, the latter declares the methods which can be used to interact with the XDM Server:</para>
+		<para>The &THIS.PLATFORM; JAIN SLEE &THIS.ENABLER; Enabler Sbb, the Child Sbb, implements the <literal>XDMClientChildSbbLocalObject</literal>, which extends the <literal>org.restcomm.slee.SbbLocalObjectExt</literal> and <literal>XDMClientChild</literal> interfaces, the latter declares the methods which can be used to interact with the XDM Server:</para>
 		
 		<programlisting language="Java" role="JAVA"><![CDATA[
-package org.mobicents.slee.enabler.xdmc;
+package org.restcomm.slee.enabler.xdmc;
 
 import java.io.IOException;
 import java.net.URI;
 
-import org.mobicents.xcap.client.auth.Credentials;
-import org.mobicents.xcap.client.auth.CredentialsFactory;
+import Credentials;
+import CredentialsFactory;
 
 public interface XDMClientChild {
 

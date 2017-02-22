@@ -8,13 +8,13 @@
 		<description />
 
 		<sbb-name>XDMClientParentSbb</sbb-name>
-		<sbb-vendor>org.mobicents</sbb-vendor>
+		<sbb-vendor>org.restcomm</sbb-vendor>
 		<sbb-version>1.0</sbb-version>
 
 		<!-- Delegate to this child SBB if we need to do registrations -->
 		<sbb-ref>
 			<sbb-name>XDMClientChildSbb</sbb-name>
-			<sbb-vendor>org.mobicents</sbb-vendor>
+			<sbb-vendor>org.restcomm</sbb-vendor>
 			<sbb-version>1.0</sbb-version>
 			<sbb-alias>XDMChildSbb</sbb-alias>
 		</sbb-ref>
@@ -22,7 +22,7 @@
 		<sbb-classes>
 			<sbb-abstract-class
 				reentrant="True">
-				<sbb-abstract-class-name>org.mobicents.slee.enabler.xdm.example.XDMClientParentSbb</sbb-abstract-class-name>
+				<sbb-abstract-class-name>org.restcomm.slee.enabler.xdm.example.XDMClientParentSbb</sbb-abstract-class-name>
 				<cmp-field>
 					<cmp-field-name>stateMachine</cmp-field-name>
 				</cmp-field>
@@ -35,7 +35,7 @@
 				</get-child-relation-method>
 			</sbb-abstract-class>
 			<sbb-local-interface>
-				<sbb-local-interface-name>org.mobicents.slee.enabler.xdmc.XDMClientParentSbbLocalObject</sbb-local-interface-name>
+				<sbb-local-interface-name>org.restcomm.slee.enabler.xdmc.XDMClientParentSbbLocalObject</sbb-local-interface-name>
 			</sbb-local-interface>
 
 		</sbb-classes>

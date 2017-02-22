@@ -9,16 +9,16 @@
 
 	<title>Resource Adaptor Interface</title>
 
-	<para>The &THIS.RA; Resource Adaptor interface, of type <literal>org.mobicents.slee.resource.xcapclient.XCAPClientResourceAdaptorSbbInterface</literal>, which an SBB uses to create new <literal>AsyncActivity</literal> instances or send synchronous requests, its interface is defined as follows:</para>
+	<para>The &THIS.RA; Resource Adaptor interface, of type <literal>XCAPClientResourceAdaptorSbbInterface</literal>, which an SBB uses to create new <literal>AsyncActivity</literal> instances or send synchronous requests, its interface is defined as follows:</para>
 	
 	<programlisting language="Java" role="JAVA">
 		<![CDATA[
-package org.mobicents.slee.resource.xcapclient;
+package org.restcomm.slee.resource.xcapclient;
 
 import javax.slee.resource.ActivityAlreadyExistsException;
 import javax.slee.resource.StartActivityException;
 
-import org.mobicents.xcap.client.XcapClient;
+import XcapClient;
 
 public interface XCAPClientResourceAdaptorSbbInterface extends XcapClient {
 
@@ -37,17 +37,17 @@ public interface XCAPClientResourceAdaptorSbbInterface extends XcapClient {
 	</varlistentry>
 	</variablelist>
 	
-	<para>The &THIS.RA; Resource Adaptor interface extends type <literal>org.mobicents.xcap.client.XcapClient</literal>, its interface is defined as follows:</para>
+	<para>The &THIS.RA; Resource Adaptor interface extends type <literal>XcapClient</literal>, its interface is defined as follows:</para>
 	
 	<programlisting language="Java" role="JAVA">
 		<![CDATA[
-package org.mobicents.xcap.client;
+package org.restcomm.xcap.client;
 
 import java.io.IOException;
 import java.net.URI;
 
-import org.mobicents.xcap.client.auth.Credentials;
-import org.mobicents.xcap.client.header.Header;
+import Credentials;
+import Header;
 
 public interface XcapClient {
 

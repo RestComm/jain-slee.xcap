@@ -9,7 +9,7 @@
 
 	<title>Activities</title>
 
-	<para>The single activity object for &THIS.RA; Resource Adaptor is the <literal>org.mobicents.slee.resource.xcapclient.AsyncActivity</literal> interface. Through the activity an SBB can send multiple XCAP requests, and receive the related responses asynchronously. Due to the nature of SLEE activities, this RA activity acts like a queue of requests, allowing the processing of their responses - the events- in a serialized way</para>
+	<para>The single activity object for &THIS.RA; Resource Adaptor is the <literal>AsyncActivity</literal> interface. Through the activity an SBB can send multiple XCAP requests, and receive the related responses asynchronously. Due to the nature of SLEE activities, this RA activity acts like a queue of requests, allowing the processing of their responses - the events- in a serialized way</para>
 	
 	<para>An activity starts on demand by an SBB, through the RA SBB Interface, and it ends when an SBB invokes its <literal>endActivity()</literal> method.</para>
 	
@@ -17,11 +17,11 @@
 	
 	<programlisting language="Java" role="JAVA">
 		<![CDATA[
-package org.mobicents.slee.resource.xcapclient;
+package org.restcomm.slee.resource.xcapclient;
 
 import java.net.URI;
-import org.mobicents.xcap.client.auth.Credentials;
-import org.mobicents.xcap.client.header.Header;
+import Credentials;
+import Header;
 
 public interface AsyncActivity {
 
