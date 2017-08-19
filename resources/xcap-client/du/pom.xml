@@ -33,6 +33,7 @@
 	</dependencies>
 	
 	<build>
+		<finalName>restcomm-slee-ra-xcap-client-DU-${pom.version}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.mobicents.tools</groupId>

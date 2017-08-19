@@ -23,6 +23,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>restcomm-xdm-client-DU-${pom.version}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.mobicents.tools</groupId>
