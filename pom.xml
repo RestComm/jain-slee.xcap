@@ -25,6 +25,10 @@
 		<url>https://github.com/RestComm/jain-slee.xcap</url>
 	</scm>
 
+	<properties>
+		<restcomm.resources.sip11.version>7.1.26</restcomm.resources.sip11.version>
+	</properties>
+
 	<profiles>
 		<profile>
 			<id>maven-release</id>
