@@ -22,7 +22,11 @@
 		<connection>scm:git:https://github.com/RestComm/jain-slee.xcap.git</connection>
 		<developerConnection>scm:git:git@github.com:RestComm/jain-slee.xcap.git</developerConnection>
 		<url>https://github.com/RestComm/jain-slee.xcap</url>
-	</scm>     
+	</scm>
+
+	<properties>
+		<resources.sip11.version>2.9.97</resources.sip11.version>
+	</properties>
 			
 	<profiles>
 		<profile>
