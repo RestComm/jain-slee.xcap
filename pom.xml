@@ -25,7 +25,7 @@
 	</scm>
 
 	<properties>
-		<resources.sip11.version>2.9.97</resources.sip11.version>
+		<resources.sip11.version>2.9.98</resources.sip11.version>
 	</properties>
 			
 	<profiles>
